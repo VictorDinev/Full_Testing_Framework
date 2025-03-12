@@ -70,9 +70,6 @@ public class APITestPets {
                 .statusCode(200)
                 .extract().response();;
 
-                ggb bc dg
-
-
         Response response1 = RestAssured.given().baseUri(APIConfig.getPETSBaseURL())
                 .basePath(APIConfig.deletePetByIDURI(12))
                 .when()
